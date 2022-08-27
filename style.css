@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+
+}
+.header__container {
+    width: 100%;
+    height: 75px;
+    padding: 15px 15px 15px 20px;
+    align-items: center;
+    display: flex;
+justify-content: space-between;}
+.logo {
+    margin: 0 ;
+    width: 68px;
+    height: 29px;
+    }
+.header__pay-in {
+    width: 141px;
+    height: 45px;
+    border-radius: 3px;
+    background: #6FE2FB;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.news-container {
+    width: 100%;
+    padding: 0 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.news-container__title {
+width: 322px;
+height: 144px;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+margin: 99px auto 0 auto;
+
+} 
+.news-container__title-input {
+    height: 27px;
+    width: 244px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin: 38px auto 0 auto;
+} 
+.new-container__input {
+    width: 234px;
+    height: 45px;
+    background: #E8E8E8;
+    border-radius: 3px;
+    margin: 6px auto 0 auto;
+    border: transparent;
+}
+.new-container__button {
+    width: 234px;
+    height: 45px;
+    background: #FFED47;
+    border-radius: 3px;
+    margin: 15px auto 0 auto;
+    border:transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    
+    
+    color: #000000;
+}
